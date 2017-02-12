@@ -1,7 +1,11 @@
 # openSIMULATOR-Map-Karte
 Eine Karte mit Installer die auch unter PHP7 funktioniert.
 
-Systemanforderungen PHP z.B. unter Windows XAMPP, IIS oder Apache Server. Unter Linux einfach Apache und PHP installieren.
+Systemanforderungen PHP z.B. unter Windows kann XAMPP genutzt werden. 
+
+Unter Linux einfach Apache und PHP installieren.
+
+.
 
 1. Verzeichnis /includes beschreibbar machen.
 
@@ -12,3 +16,5 @@ Systemanforderungen PHP z.B. unter Windows XAMPP, IIS oder Apache Server. Unter 
 4. Das beschreibbar machen des Verzeichnis /includes rückgängig machen.
 
 5. install.php löschen.
+
+Fertig!
