@@ -20,3 +20,7 @@ Unter Linux einfach Apache und PHP installieren.
 Fertig!
 
 ![Title](http://www.gridtalk.de/attachment.php?aid=2673)
+
+P.S. Für die Farbanpassung bitte dies hier lesen:
+
+http://www.w3schools.com/w3css/w3css_colors.asp
