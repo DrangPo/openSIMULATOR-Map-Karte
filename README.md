@@ -18,3 +18,5 @@ Unter Linux einfach Apache und PHP installieren.
 5. install.php löschen.
 
 Fertig!
+
+![Title](http://www.gridtalk.de/attachment.php?aid=2673)
