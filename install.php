@@ -3,7 +3,7 @@
 <link id="main" rel="stylesheet" href="http://www.w3schools.com/lib/w3.css" type="text/css" media="screen"/>
 
 </head>
-    <title>Splash Config Setup</title>
+    <title>openSIMULATOR-Map-Karte Config Setup</title>
 </head>
 
 <body>
@@ -13,7 +13,7 @@
 
 
 <div class="w3-container w3-blue-grey">
-<h1>Splash Config Setup</h1>
+<h1>openSIMULATOR-Map-Karte Config Setup</h1>
 </div>
 
 
@@ -37,9 +37,9 @@
 <br>	
 	
 	<div class="form-group">
-    <label for="base" class="w3-label w3-text-blue-grey control-label">Splash path :</b></label>
+    <label for="base" class="w3-label w3-text-blue-grey control-label">Map Karte path :</b></label>
         <div class="col-sm-4">
-            <input class="w3-input w3-border" type="text" placeholder="/splash" name="domainepath" maxlength="40" />
+            <input class="w3-input w3-border" type="text" placeholder="/map" name="domainepath" maxlength="40" />
         </div>
     </div>
 <br>	
