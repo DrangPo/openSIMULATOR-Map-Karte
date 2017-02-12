@@ -8,15 +8,9 @@
 
 <body>
 
-
-
-
-
 <div class="w3-container w3-blue-grey">
 <h1>openSIMULATOR-Map-Karte Config Setup</h1>
 </div>
-
-
 
 <?php if (!isset($_POST['etape'])): ?>
 
@@ -202,22 +196,3 @@ $CONF_style_sheet =    "/css/stylesheet.css";          //Link to your StyleSheet
 </div>
 </body>
 </html>	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
