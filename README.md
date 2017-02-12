@@ -1,12 +1,14 @@
 # openSIMULATOR-Map-Karte
 Eine Karte mit Installer die auch unter PHP7 funktioniert.
 
-1. Verzeichnis includes beschreibbar machen.
+Systemanforderungen PHP z.B. unter Windows XAMPP, IIS oder Apache Server. Unter Linux einfach Apache und PHP installieren.
 
-2. install.php starten und angaben ausfüllen anschließend Install anklicken.
+1. Verzeichnis /includes beschreibbar machen.
+
+2. install.php starten und angaben ausfüllen, anschließend Install anklicken.
 
 3. map.php aufrufen und testen.
 
-4. Das beschreibbar machen des Verzeichnis includes rückgängig machen.
+4. Das beschreibbar machen des Verzeichnis /includes rückgängig machen.
 
 5. install.php löschen.
