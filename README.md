@@ -1,5 +1,5 @@
 # openSIMULATOR-Map-Karte
-Eine Karte mit Installer die auch unter PHP7 funktioniert.
+Eine Karte mit Installer die auch unter PHP7 funktioniert. (12-2-2017)
 
 Systemanforderungen PHP z.B. unter Windows kann XAMPP genutzt werden. 
 
