@@ -343,7 +343,7 @@ $work_reg = $region['uuid'].";".$region['regionName'].";".$varreg_work_x.";".$va
 ?>
 				
 				
-</td><td><A style="cursor:pointer" "><img src="./img/grid_mainland.jpg" alt= " RegionName: <?php  print $region_name; ?> &#10 RegionType: <?php print $region_type; ?> &#10&#10 Dimension: <?php print $region_dimension ?> &#10 Total size: <?php print $region_totalsize ?> &#10&#10 X-Coordinate: <?php print $x; ?> &#10 Y-Coordinate: <?php print $y; ?> &#10&#10 Status: <?php  echo $CONF_txt_occupied;?> &#10 Owner: <?php echo $firstname.' '.$lastname;?>" title= " RegionName: <?php  print $region_name; ?> &#10 RegionType: <?php print $region_type; ?> &#10&#10 Dimension: <?php print $region_dimension ?> &#10 Total size: <?php print $region_totalsize ?> &#10&#10 X-Coordinate: <?php print $x; ?> &#10 Y-Coordinate: <?php print $y; ?> &#10 Owner: <?php  echo $CONF_txt_occupied;?> &#10 Owner: <?php  echo $firstname.' '.$lastname;?>"></A><?php 
+</td><td><A style="cursor:pointer" "><img src="./img/grid_mainland.png" alt= " RegionName: <?php  print $region_name; ?> &#10 RegionType: <?php print $region_type; ?> &#10&#10 Dimension: <?php print $region_dimension ?> &#10 Total size: <?php print $region_totalsize ?> &#10&#10 X-Coordinate: <?php print $x; ?> &#10 Y-Coordinate: <?php print $y; ?> &#10&#10 Status: <?php  echo $CONF_txt_occupied;?> &#10 Owner: <?php echo $firstname.' '.$lastname;?>" title= " RegionName: <?php  print $region_name; ?> &#10 RegionType: <?php print $region_type; ?> &#10&#10 Dimension: <?php print $region_dimension ?> &#10 Total size: <?php print $region_totalsize ?> &#10&#10 X-Coordinate: <?php print $x; ?> &#10 Y-Coordinate: <?php print $y; ?> &#10 Owner: <?php  echo $CONF_txt_occupied;?> &#10 Owner: <?php  echo $firstname.' '.$lastname;?>"></A><?php 
                  $x++;
 
               }
@@ -351,9 +351,9 @@ $work_reg = $region['uuid'].";".$region['regionName'].";".$varreg_work_x.";".$va
               {
 
               if ($region_type == "SingleRegion")
-                 {$reg_colour = "./img/grid_besetzt.jpg";}
+                 {$reg_colour = "./img/grid_besetzt.png";}
               if ($region_type == "VarRegion")
-                 {$reg_colour = "./img/grid_varregion.jpg";}
+                 {$reg_colour = "./img/grid_varregion.png";}
 
               $region_dimension = ($region_sizex / 256)." x ".($region_sizey / 256)." Regions";
               $region_totalsize = $region_sizex * $region_sizey;
@@ -372,7 +372,7 @@ $work_reg = $region['uuid'].";".$region['regionName'].";".$varreg_work_x.";".$va
                       {
 ?>
 
-                         </td><td><img src="./img/grid_frei.jpg"
+                         </td><td><img src="./img/grid_frei.png"
                          alt= " X-Coordinate: <?php print $x; ?> &#10 Y-Coordinate: <?php print $y; ?> &#10 Status: <?php  echo $CONF_txt_free;?>"
                          title= " X-Coordinate: <?php print $x; ?> &#10 Y-Coordinate: <?php print $y; ?> &#10 Status: <?php  echo $CONF_txt_free;?>">
                          <?php 
@@ -399,10 +399,10 @@ $work_reg = $region['uuid'].";".$region['regionName'].";".$varreg_work_x.";".$va
    </table>
 
 <img src = "./img/spacer.gif" width="350" height="1">
-<img src="./img/grid_frei.jpg"> = Freie Koordinaten &nbsp;&nbsp;&nbsp;
-<img src="./img/grid_besetzt.jpg"> = Besetzt (SingleRegion) &nbsp;&nbsp;&nbsp;
-<img src="./img/grid_varregion.jpg"> = Besetzt (VarRegion) &nbsp;&nbsp;&nbsp;
-<img src="./img/grid_mainland.jpg"> = Zentrum vom Grid &nbsp;&nbsp;&nbsp;
+<img src="./img/grid_frei.png"> = Freie Koordinaten &nbsp;&nbsp;&nbsp;
+<img src="./img/grid_besetzt.png"> = Besetzt (SingleRegion) &nbsp;&nbsp;&nbsp;
+<img src="./img/grid_varregion.png"> = Besetzt (VarRegion) &nbsp;&nbsp;&nbsp;
+<img src="./img/grid_mainland.png"> = Zentrum vom Grid &nbsp;&nbsp;&nbsp;
 
 
 </div>
