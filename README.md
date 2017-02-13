@@ -7,6 +7,14 @@ Unter Linux einfach Apache und PHP installieren.
 
 .
 
+Achtung! Diese Software greift lesend auf ihrer Datenbank zu.
+
+Ich schließe jegliche Gewährleistung aus.
+
+Die Nutzung der Software geschieht auf eigenes Risiko.
+
+.
+
 1. Verzeichnis /includes beschreibbar machen.
 
 2. install.php starten und angaben ausfüllen, anschließend Install anklicken.
