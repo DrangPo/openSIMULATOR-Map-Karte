@@ -399,10 +399,10 @@ $work_reg = $region['uuid'].";".$region['regionName'].";".$varreg_work_x.";".$va
    </table>
 
 <img src = "./img/spacer.gif" width="350" height="1">
-<img src="./img/grid_frei.png"> = Freie Koordinaten &nbsp;&nbsp;&nbsp;
+<img src="./img/grid_frei.png"> = Frei &nbsp;&nbsp;&nbsp;
 <img src="./img/grid_besetzt.png"> = Besetzt (SingleRegion) &nbsp;&nbsp;&nbsp;
 <img src="./img/grid_varregion.png"> = Besetzt (VarRegion) &nbsp;&nbsp;&nbsp;
-<img src="./img/grid_mainland.png"> = Zentrum vom Grid &nbsp;&nbsp;&nbsp;
+<img src="./img/grid_mainland.png"> = Grid Zentrum &nbsp;&nbsp;&nbsp;
 
 
 </div>
